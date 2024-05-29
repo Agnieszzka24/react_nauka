@@ -1,6 +1,6 @@
 import React from 'react'
 
-function historia() {
+function Historia() {
   return (
     <div>
       Historia
@@ -8,4 +8,4 @@ function historia() {
   )
 }
 
-export default historia
+export default Historia

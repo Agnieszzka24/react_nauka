@@ -8,14 +8,15 @@ import TwojeArtykuly from "./piersze_kroki/TwojeArtykuly";
 import Historia from "./piersze_kroki/Historia";
 import ReklamaPro from "./piersze_kroki/ReklamaPro";
 import Konto from './piersze_kroki/Konto';
+import Dashboard from "./piersze_kroki/Dashboard";
 
 function App() {
   return <div>
     <BrowserRouter>
       <Start>
         <Routes>
-          <Route path="/" element={<Test1></Test1>} />
-          <Route path="/dashboard" element={<>dashboard</>} />
+          <Route path="/" element={<Dashboard></Dashboard>} />
+          <Route path="/dashboard" element={<Dashboard></Dashboard>} />
           <Route path="/wpisblogowy" element={<WpisBlogowy></WpisBlogowy>} />
           <Route path="/opisproduktu" element={<OpisProduktu></OpisProduktu>}/>
           <Route path="/pytanieiodpowiedz"element={<PytanieiOdpowiedz></PytanieiOdpowiedz>}/>
