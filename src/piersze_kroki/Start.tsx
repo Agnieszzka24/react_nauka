@@ -9,12 +9,12 @@ import TwojeTresci from './TwojeTresci';
 function Start({ children }: { children: React.ReactNode }) {
     console.log(children);
     return (
-        <div className='bg-back-100'>
+        <div className='bg-back-100 relative'>
             <div className="flex flex-col lg:flex-row ">
                 <div className="bg-neutral-900 max-w-[319px] w-full h-[98vh] flex flex-col justify-between text-white rounded-lg m-3 ">
-                    <div className="p-6 w-full flex-1 flex">
-                        <div className="w-full relative flex-1">
-                            <div className="flex items-center justify-between mb-8">
+                    <div className="p-6 w-full flex-1 flex ">
+                        <div className="w-full relative flex-1 ">
+                            <div className="flex items-center justify-between mb-8 ">
                                 <div className="flex items-center">
                                     <img
                                         className="size-14 mr-3 "

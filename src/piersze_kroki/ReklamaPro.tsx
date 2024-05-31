@@ -13,7 +13,7 @@ type ReklamaProProps = {
 function ReklamaPro(props: ReklamaProProps) {
     return (
         <div className={'flex flex-col ' + props.className}>
-            <div className='bg-brand-shades-400 text-white rounded-t-lg w-full max-h-[127px] h-full mt-[74px] place-content-end justify-between'>
+            <div className='bg-brand-shades-400 text-white rounded-t-lg w-full mt-[74px] place-content-end justify-between'>
                 <img className="object-cover w-full h-full rounded-t-lg" src={props.imgSrc}></img>
             </div>
             <div className='bg-neutral-700 px-[16px] py-[24px] w-full rounded-b-lg'>

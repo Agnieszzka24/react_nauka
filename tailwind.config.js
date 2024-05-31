@@ -26,7 +26,13 @@ module.exports = {
         },
         back: {
           100: '#F2F4F7'
-        }
+        },
+        primary: {
+          900: '#6315FF'
+        },
+        szary: {
+          900: '#667085'
+        },
       },
       fontFamily: {
         'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
